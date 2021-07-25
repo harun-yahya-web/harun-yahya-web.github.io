@@ -3,13 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <title>Adnan Harun Yahya Külliyatı</title>
+  <style>
+  .container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+button.accordion {
+  width: 100%;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.accordion:after {
+  font-family: FontAwesome;
+  content: "\f150";
+  font-family: "fontawesome";
+  font-size: 18px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: "\f151";
+}
+
+button.accordion:hover,
+button.accordion.is-open {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
   
+  
+  
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
 
   
       <link rel="stylesheet" href="css/font-awesome.css">
       <link rel="stylesheet" href="css/normalize.min.css">
       <link rel="stylesheet" href="css/style.css">
-  z
+
 </head>
 
 <body>
@@ -106,7 +192,7 @@
 
         <div class="content">
             <p>
-                 <a href="pdf/akilsizKuraniNasilYorumlar-11b-tr/akilsizKuraniNasilYorumlar-11b-tr.html">
+                 <a href="web/akilsizKuraniNasilYorumlar-11b-tr/akilsizKuraniNasilYorumlar-11b-tr.html">
                 <img  class="left" src="assets/img/akilsizKuraniNasilYorumlar.png" alt="HARUN YAHYA" title="Akılsız Kuran'ı Nasıl Yorumlar?"  height="225"></a>Foklar kalabalık sürüler halinde yaşarlar. Nasıl olup da bu kalabalık sürünün içinde anne fok yavrusunu tanır? Diğer pek çok canlı gibi anne fok da, doğumdan sonra yavrusunukoklar, dokunur. Bu sayede yavrusunun kokusunu tanır ve onu başka yavrularla hiç karıştırmaz. 
                 <strong>"Allah her canlıyı ihtiyacı olan özelliklerde yaratandır. Gaybın anahtarları O'nun Katındadır, O'ndan başka hiç kimse gaybı bilmez. Karada ve denizde olanların tümünü O bilir, O, bilmeksizin bir yaprak dahi düşmez; yerin karanlıklarındaki bir tane, yaş ve kuru dışta olmamak üzere hepsi (ve herşey) apaçık bir kitaptadır. (Enam Suresi, 59)"</strong> Büyüme hormonu vücutta hangi bölgelerin genişlemesi
 gerektiğini adeta bilir. Vücut da derhal hormonu tanıyarak
@@ -300,5 +386,7 @@ mealden alınmıştır.
     <img src="https://counter2001.herokuapp.com/ingress/f7f40a7f-4a42-40dd-be33-a5486acb6e23/pixel.gif">
 </noscript>
 <script defer src="https://counter2001.herokuapp.com/ingress/f7f40a7f-4a42-40dd-be33-a5486acb6e23/script.js"></script>
+ 
+
 </body>
 </html>
