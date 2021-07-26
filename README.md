@@ -14,5 +14,7 @@ find . -name '*.odt' -print -exec grep -Ril "yanlıfltan" {} \;
   find . -name '*.html' -type f -size +1M -exec ls -lh {} \;
   
  ./pdfix_app pdf2html --responsive -w 720 --input  akilsizKuraniNasilYorumlar-11b-tr.pdf --output akilsizKuraniNasilYorumlar-11b-tr.html
+ 
+ https://html.com/tags/body/
 
 
