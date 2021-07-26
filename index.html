@@ -1,392 +1,259 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Adnan Harun Yahya Külliyatı</title>
-  <style>
-  .container {
-  width: 80%;
-  max-width: 600px;
-  margin: 50px auto;
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Album example · Bootstrap v5.0</title>
 
-button.accordion {
-  width: 100%;
-  background-color: whitesmoke;
-  border: none;
-  outline: none;
-  text-align: left;
-  padding: 15px 20px;
-  font-size: 18px;
-  color: #333;
-  cursor: pointer;
-  transition: background-color 0.2s linear;
-}
+    <link rel="canonical" href="https://">
 
-button.accordion:after {
-  font-family: FontAwesome;
-  content: "\f150";
-  font-family: "fontawesome";
-  font-size: 18px;
-  float: right;
-}
+    
 
-button.accordion.is-open:after {
-  content: "\f151";
-}
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-button.accordion:hover,
-button.accordion.is-open {
-  background-color: #ddd;
-}
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-.accordion-content {
-  background-color: white;
-  border-left: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
-  padding: 0 20px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-in-out;
-}
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 
-  
-  
-  
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-.accordion:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-</style>
-
-  
-      <link rel="stylesheet" href="css/font-awesome.css">
-      <link rel="stylesheet" href="css/normalize.min.css">
-      <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-  <div class='nav'>
-  <div class='link'>
-    <div class='prev'>&#xf02d;</div>
-    <div class='small'>&#xf02d;</div>
-    <div class='full'>
-      <div class='f1'>Harun Yahya</div>
-      <div class='f2'>Külliyat</div>
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+            <li><a href="#" class="text-white">Like on Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
-  <div class='link'>
-    <div class='prev'>&#xf17d;</div>
-    <div class='small'>&#xf17d;</div>
-    <div class='full'>
-      <div class='f1'>headline</div>
-      <div class='f2'>some additional info to this link</div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>Album</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
   </div>
-  <div class='link'>
-    <div class='prev'>&#xf26e;</div>
-    <div class='small'>&#xf26e;</div>
-    <div class='full'>
-      <div class='f1'>headline</div>
-      <div class='f2'>some additional info to this link</div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Album example</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img  class="bd-placeholder-img card-img-top" width="50%" " height="225" src="assets/adamlikdini.png" alt="HARUN YAHYA" title="Akılsız Kuran'ı Nasıl Yorumlar?">
+
+            <div class="card-body">
+             
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="assets/web/adamlikDini-13b-tr/adamlikDini-13b-tr.html">Htm</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="pdf/balarisiMucizesi-4b-tr.pdf">pdf</a></button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+              <p class="card-text">Adamlık Dini adlı bu kitapta insanların bir çoğunu, kendileri farkında olmadıkları halde etkisi altına almış olan güçlü bir dinden bahsedilmektedir. Bu dinin her çağda ve her coğrafyada, hak Din'den sapmış olan toplumların ortak dini olduğu anlatılmaktadır.Bu, kendini açıkça tanıtmayan, gizli bir dindir. Hiçbir yazılı kuralı yoktur. Adı bile konmamıştır. İnsanların hareket ve tavırlarını, düşüncelerini kontrolü altına alır. İnsanlar, şuurunda olmadan bu dinin emir ve yasaklarına göre yaşarlar. Bu din, Müslümanlık, Hıristiyanlık veya Musevilik değildir. Bu dine uyan kimseler sorulduğunda belki, "ben Müslümanım" ya da "ben Hıristiyanım" diyebilirler. Dinsiz, hatta ateist de olabilirler. Fakat her biri, aslında bu gizli dinin mensubudur.Adamlık dininin kurallarının Kuran ahlakının tam tersi bir zihniyetten kaynaklandığı, tercihlerin Allah rızasına göre değil de adamlık dininin koyduğu ölçülere göre yapıldığı ve bütün bunların sonucunda da bu dinin mensuplarında geniş çaplı davranış bozukluklarının ortaya çıktığı da kitapta vurgulanmaktadır. <strong>124 sayfa</strong></p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img  class="bd-placeholder-img card-img-top" width="50%" " height="225" src="assets/balarisiMucizesi-4b-tr.png" alt="HARUN YAHYA" title="Akılsız Kuran'ı Nasıl Yorumlar?">
+
+            <div class="card-body"> 
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="assets/web/balarisiMucizesi-4b-tr/balarisiMucizesi-4b-tr.html">Htm</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="pdf/balarisiMucizesi-4b-tr.pdf">pdf</a></button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+              <p class="card-text">Arıların olağanüstü özelliklerini incelediğimizde, bu canlıların insanların bile başaramayacakları işleri kolaylıkla yaptığını görürüz. Olağanüstü hassas hesaplar yapar, plan örnekleri sergilerler. Bunun sırrı ise, bu canlılara verilmiş olan ilahi emirdir: Kuran'da balarısının Allah'tan gelen özel bir ilhamla hareket ettiği haber verilmektedir. <strong>Dediler ki: "Sen Yücesin, bize öğrettiğinden başka bizim hiçbir bilgimiz yok. Gerçekten Sen, herşeyi bilen, hüküm ve hikmet sahibi olansın." (Bakara Suresi, 32)</strong> Kitap boyunca yer yer kullanılan 'tasarım' ifadesinin doğru anlaşılması önemlidir. Allah'ın kusursuz bir tasarım yaratmış olması, Rabbimiz’in önce plan yaptığı daha sonra yarattığı anlamına gelmez. Bilinmelidir ki, yerlerin ve göklerin Rabbi olan Allah’ın yaratmak için herhangi bir 'tasarım' yapmaya ihtiyacı yoktur. Allah'ın tasarlaması ve yaratması aynı anda olur. Allah bu tür eksikliklerden münezzehtir.<strong> 202 sayfa</strong> </p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class='link'>
-    <div class='prev'>&#xf09b;</div>
-    <div class='small'>&#xf09b;</div>
-    <div class='full'>
-      <div class='f1'>headline</div>
-      <div class='f2'>some additional info to this link</div>
-    </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
   </div>
-  <div class='link'>
-    <div class='prev'>&#xf171;</div>
-    <div class='small'>&#xf171;</div>
-    <div class='full'>
-      <div class='f1'>headline</div>
-      <div class='f2'>some additional info to this link</div>
-    </div>
-  </div>
-</div>
-
-<br>
-<br>
-<br>
-<div class="accordion">
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>YENİ MASONİK DÜZEN</h2></div>
-        </a>
-
-        <div class="content">
-            <p><strong>Daha önce böyle bir kitap okumuş olamazsınız. Çünkü</strong> <strong>böyle bir kitap daha önce hiç yazılmadı...</strong>  <img  class="left" src="assets/img/tumeserler/YeniMasonikDuzen.jpg" alt="HARUN YAHYA" title="HARUN YAHYA"  height="225">Harun Yahya serisinin en önemli kitaplarından biri, kuşkusuz, aynı zamanda serinin en hacimli çalışması olan (yaklaşık 1000 sayfa) YENİ MASONİK DÜZEN adlı dev eserdir. Kristof Kolomb'un Amerika'yı keşfinin perde arkasını anlatarak başlayan kitap, Avrupa'da din-dışı bir sosyal ve siyasi düzenin kuruluşunu, bu düzenin kurulmasında Yahudiler ve Masonların birlikte oynadıkları rolü, bu düzenin 20. yüzyıldaki etkilerini anlatıyor. İsrail'in gizli dış politikasını, Üçüncü Dünya faşistleriyle kurduğu ittifakları ve oluşturmaya çalıştığı "Anti-İslami Enternasyonal"i de bu kitaptan öğrenmek mümkün.Kitabın temel tezi, önsözünde şöyle özetlenmiş:Bu kitap, görünüşte birbirinden çok farklı olan ve tarihsel açıdan aynı kategoriye konamayacak olayları incelemektedir. Kristof Kolomb'un Amerika keşfinden Nazi Almanyası'na, Protestan reformundan Bosna-Hersek'te akan Müslüman kanlarına kadar birbiriyle son derece ilgisiz gözüken konular kitabın içinde birbiri ardına analiz edilmektedir. Önemli olan nokta da zaten budur. Çünkü bu kitapta öne sürülen -ve de ispatlanan- ana fikir, tarihsel olayların arkasında, yüzeysel bir bakışla fark edilemeyecek bazı gizli gerçekler olduğudur. Birbirinden bağımsız gibi gözüken olaylar, gerçekte çok önemli bazı bağlantılara sahip olabilirler. Ve bu bağlantıları keşfedip, küçük parçaları birleştirerek dev bir bütüne ulaşmak mümkündür.Bu kitap, işte bu küçük parçaları birleştirerek dev bir bütüne ulaşmakta ve Ortaçağ'ın sonundan günümüze uzanan dünya tarihinin içindeki gizli bir dinamiği ortaya çıkarmaktadır. Bu dinamik, bugün yaşadığımız önemli bazı sosyal ve siyasi olaylarda da etkilerini gösterir. <strong>1000 SAYFA, 285 RESİM</strong></p>
-        </div>
-    </div>
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>YAHUDİLİK VE MASONLUK</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-               <strong>Masonluğun iç yüzünü ortaya çıkaran ünlü klasik...</strong> <strong><img  class="left" src="assets/img/tumeserler/yahudilikvemasonluk.jpg" alt="HARUN YAHYA" title="HARUN YAHYA" height="225">"Yahudilik ve Masonluk"</strong> isimli kitabın genel görüntüsü kitabın önsözünde şöyle açıklanmaktadır:"Hakkında 60 binden fazla kitap yazılmış olmasına rağmen masonluğun ortaya çıkışı, hedefleri ve hayatımızdaki rolü toplumumuz tarafından yeteri kadar anlaşılmış değildir.Beynelmilel bir kuruluş olan masonluğun yahudilikle çok yakın bir alakası vardır. Bu sebeple muharref Tevrat inananlarının gayelerini, hedeflerini, dünyaya anlatmadan masonluğun tarifini yapmak çok güç olmaktadır.Yahudiler hakkında bilinenler, yalnızca birkaç roman veya filmin konusuyla sınırlıdır.Bu gibi sebeplerden hareketle, kitapta <strong>birinci bölüm</strong> resimli olarak, anaokulundaki çocuktan devlet erkanına kadar İsrail halkının ve diğer devletlerdeki Yahudilerin, dinlerine bağlılıklarının tanıtılmasına ayrılmıştır. <strong>İkinci Bölüm</strong> ise masonluk ve bunun Yahudilikle alakasını ortaya koymaktadır. Ayrıca masonların kabul ettirmeye çalıştıkları evrim teorisi, dinlerin dejenerasyonu gibi önemli meseleler son bölümde ele alınmıştır.Bu araştırma sadece belgelere dayanılarak hazırlanmış, zayıf kaynaklar dikkate alınmamıştır. Kitapta Yahudilik meselesine ırkçı bir düşünceyle yaklaşılmadığı gibi muharref Tevrat'tan kaynaklanan ırkçı Siyonist ideolojinin bütün açıklığı ile gözler önüne serilmesinden de kaçınılmamıştır.Aynı hususu masonluk için de söyleyebiliriz. Basit menfaatler için masonluğa üye olanlara gerçek mason gözü ile bakmak hatalıdır… Bu kitap vasıtasıyla gerçekleştirilmek istenen husus, şahısları tek tek karalamak değil, milletimize aşılanıp maledilmeye çalışılan sapkın fikirlere dikkat çekmek ve bunların hangi vasıtalarla gerçekleştirildiğine, kısacası oynanmakta olan oyunlara biraz olsun açıklık getirebilmektir. Listelerin veriliş gayesi de budur. Nitekim listeler bütün masonları kapsamamaktadır. Onların yaygın oldukları kurumlar hakkında fikir vermek gayesiyle ilave edilmişlerdir…<strong>526 SAYFA, 450 RESİM</strong>
-            </p>
-        </div>
-    </div>
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>ADAMLIK DİNİ</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-            <a href="web/adamlikDini-13b-tr/adamlikDini-13b-tr.html">
-                <img  class="left" src="assets/img/adamlikdini.png" alt="HARUN YAHYA" title="Adamlık Dini"  height="225"></a>Adamlık Dini adlı bu kitapta insanların bir çoğunu, kendileri farkında olmadıkları halde etkisi altına almış olan güçlü bir dinden bahsedilmektedir. Bu dinin her çağda ve her coğrafyada, hak Din'den sapmış olan toplumların ortak dini olduğu anlatılmaktadır.Bu, kendini açıkça tanıtmayan, gizli bir dindir. Hiçbir yazılı kuralı yoktur. Adı bile konmamıştır. İnsanların hareket ve tavırlarını, düşüncelerini kontrolü altına alır. İnsanlar, şuurunda olmadan bu dinin emir ve yasaklarına göre yaşarlar. Bu din, Müslümanlık, Hıristiyanlık veya Musevilik değildir. Bu dine uyan kimseler sorulduğunda belki, "ben Müslümanım" ya da "ben Hıristiyanım" diyebilirler. Dinsiz, hatta ateist de olabilirler. Fakat her biri, aslında bu gizli dinin mensubudur.Adamlık dininin kurallarının Kuran ahlakının tam tersi bir zihniyetten kaynaklandığı, tercihlerin Allah rızasına göre değil de adamlık dininin koyduğu ölçülere göre yapıldığı ve bütün bunların sonucunda da bu dinin mensuplarında geniş çaplı davranış bozukluklarının ortaya çıktığı da kitapta vurgulanmaktadır. <strong>124 sayfa</strong>
-            </p>
-        </div>
-    </div>
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>Akılsız Kuran'ı Nasıl Yorumlar?</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-                 <a href="web/akilsizKuraniNasilYorumlar-11b-tr/akilsizKuraniNasilYorumlar-11b-tr.html">
-                <img  class="left" src="assets/img/akilsizKuraniNasilYorumlar.png" alt="HARUN YAHYA" title="Akılsız Kuran'ı Nasıl Yorumlar?"  height="225"></a>Foklar kalabalık sürüler halinde yaşarlar. Nasıl olup da bu kalabalık sürünün içinde anne fok yavrusunu tanır? Diğer pek çok canlı gibi anne fok da, doğumdan sonra yavrusunukoklar, dokunur. Bu sayede yavrusunun kokusunu tanır ve onu başka yavrularla hiç karıştırmaz. 
-                <strong>"Allah her canlıyı ihtiyacı olan özelliklerde yaratandır. Gaybın anahtarları O'nun Katındadır, O'ndan başka hiç kimse gaybı bilmez. Karada ve denizde olanların tümünü O bilir, O, bilmeksizin bir yaprak dahi düşmez; yerin karanlıklarındaki bir tane, yaş ve kuru dışta olmamak üzere hepsi (ve herşey) apaçık bir kitaptadır. (Enam Suresi, 59)"</strong> Büyüme hormonu vücutta hangi bölgelerin genişlemesi
-gerektiğini adeta bilir. Vücut da derhal hormonu tanıyarak
-kendisinden beklenen hareketi yapar. Büyüme hormonu
-kemiğe ulaştığında kemik hemen genişlemeye başlar. Kü-
-çük bir bebeğin vücudunun zamanla orantılı şekilde büyü-
-mesi de Allah’ın bu hormonu vesile etmesi sayesindedir. <strong> 134 sayfa</strong>
-            </p>
-        </div>
-    </div>
-    
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>BALARISI MUCİZESİ</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-            <a href="web/akilsizKuraniNasilYorumlar-11b-tr/akilsizKuraniNasilYorumlar-11b-tr.html">
-                <img  class="left" src="assets/img/balarisiMucizesi-4b-tr.png" alt="HARUN YAHYA" title="Adamlık Dini"  height="225"></a>Arıların olağanüstü özelliklerini incelediğimizde, bu canlıların insanların bile başaramayacakları işleri kolaylıkla yaptığını görürüz. Olağanüstü hassas hesaplar yapar, plan örnekleri sergilerler. Bunun sırrı ise, bu canlılara verilmiş olan ilahi emirdir: Kuran'da balarısının Allah'tan gelen özel bir ilhamla hareket ettiği haber verilmektedir. <strong>Dediler ki: "Sen Yücesin, bize öğrettiğinden başka bizim hiçbir bilgimiz yok. Gerçekten Sen, herşeyi bilen, hüküm ve hikmet sahibi olansın." (Bakara Suresi, 32)</strong> Kitap boyunca yer yer kullanılan 'tasarım' ifadesinin doğru anlaşılması önemlidir. Allah'ın kusursuz bir tasarım yaratmış olması, Rabbimiz’in önce plan yaptığı daha sonra yarattığı anlamına gelmez. Bilinmelidir ki, yerlerin ve göklerin Rabbi olan Allah’ın yaratmak için herhangi bir 'tasarım' yapmaya ihtiyacı yoktur. Allah'ın tasarlaması ve yaratması aynı anda olur. Allah bu tür eksikliklerden münezzehtir.<strong> 202 sayfa</strong> Bu kitapta, imandan uzak, akledemeyen kişilerin, Kuran'ı yanlış yorumlamalarının nedenleri ele alınmakta, ayetler hakkında yaptıkları akılsızca yorumlardan ve itirazlardan çeşitli örnekler incelenmekte ve cevapları verilmektedir. Bundaki amaç, bu itirazların cevaplarını vermekle birlikte asıl olarak, imandan ve samimiyetten uzak kimselerin nasıl en açık konuları dahi akledemeyecek, idrak edemeyecek hale düştüklerini gözler önüne sermektir. Kuran'ı anlamada ölçü samimiyet ve akıldır. Bu güzel özelliklerden yoksun bir kimsenin Kuran hakkında getirdiği yorumların, itirazların mantıksızlığına şaşırmak anlamsızdır.
-Çünkü Allah Kuran'da bize iman etmeyenlerin akıl ve anlayışları olmadığını bildirmiştir. Bu yüzden Kuran ayetleri ışığında bakıldığında iman etmeyenlerin akılsızca yorumları bir şaşkınlık konusu olmaktan çıkar, bir ibret konusu haline dönüşür.
-            </p>
-        </div>
-    </div>  
-    
-    
- 
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>YAHUDİLİK VE MASONLUK</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-            <a href="web/balarisiMucizesi-4b-tr/balarisiMucizesi-4b-tr.html">
-                <img  class="left" src="assets/img/tumeserler/yahudilikvemasonluk.jpg" alt="HARUN YAHYA" title="Adamlık Dini"  height="225"></a>Masonluğun iç yüzünü ortaya çıkaran ünlü klasik...<strong>"Yahudilik ve Masonluk"</strong> isimli kitabın genel görüntüsü kitabın önsözünde şöyle açıklanmaktadır:"Hakkında 60 binden fazla kitap yazılmış olmasına rağmen masonluğun ortaya çıkışı, hedefleri ve hayatımızdaki rolü toplumumuz tarafından yeteri kadar anlaşılmış değildir.Beynelmilel bir kuruluş olan masonluğun yahudilikle çok yakın bir alakası vardır. Bu sebeple muharref Tevrat inananlarının gayelerini, hedeflerini, dünyaya anlatmadan masonluğun tarifini yapmak çok güç olmaktadır.Yahudiler hakkında bilinenler, yalnızca birkaç roman veya filmin konusuyla sınırlıdır.Bu gibi sebeplerden hareketle, kitapta <strong>birinci bölüm</strong> resimli olarak, anaokulundaki çocuktan devlet erkanına kadar İsrail halkının ve diğer devletlerdeki Yahudilerin, dinlerine bağlılıklarının tanıtılmasına ayrılmıştır. <strong>İkinci Bölüm</strong> ise masonluk ve bunun Yahudilikle alakasını ortaya koymaktadır. Ayrıca masonların kabul ettirmeye çalıştıkları evrim teorisi, dinlerin dejenerasyonu gibi önemli meseleler son bölümde ele alınmıştır.Bu araştırma sadece belgelere dayanılarak hazırlanmış, zayıf kaynaklar dikkate alınmamıştır. Kitapta Yahudilik meselesine ırkçı bir düşünceyle yaklaşılmadığı gibi muharref Tevrat'tan kaynaklanan ırkçı Siyonist ideolojinin bütün açıklığı ile gözler önüne serilmesinden de kaçınılmamıştır.Aynı hususu masonluk için de söyleyebiliriz. Basit menfaatler için masonluğa üye olanlara gerçek mason gözü ile bakmak hatalıdır… Bu kitap vasıtasıyla gerçekleştirilmek istenen husus, şahısları tek tek karalamak değil, milletimize aşılanıp maledilmeye çalışılan sapkın fikirlere dikkat çekmek ve bunların hangi vasıtalarla gerçekleştirildiğine, kısacası oynanmakta olan oyunlara biraz olsun açıklık getirebilmektir. Listelerin veriliş gayesi de budur. Nitekim listeler bütün masonları kapsamamaktadır. Onların yaygın oldukları kurumlar hakkında fikir vermek gayesiyle ilave edilmişlerdir…<strong>526 SAYFA, 450 RESİM</strong>
-            </p>
-        </div>
-    </div>  
-    
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>ADAMLIK DİNİ</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-            <a href="web/adamlikDini-13b-tr/adamlikDini-13b-tr.html">
-                <img  class="left" src="assets/img/adamlikdini.png" alt="HARUN YAHYA" title="Adamlık Dini"  height="225"></a>Adamlık Dini adlı bu kitapta insanların bir çoğunu, kendileri farkında olmadıkları halde etkisi altına almış olan güçlü bir dinden bahsedilmektedir. Bu dinin her çağda ve her coğrafyada, hak Din'den sapmış olan toplumların ortak dini olduğu anlatılmaktadır.Bu, kendini açıkça tanıtmayan, gizli bir dindir. Hiçbir yazılı kuralı yoktur. Adı bile konmamıştır. İnsanların hareket ve tavırlarını, düşüncelerini kontrolü altına alır. İnsanlar, şuurunda olmadan bu dinin emir ve yasaklarına göre yaşarlar. Bu din, Müslümanlık, Hıristiyanlık veya Musevilik değildir. Bu dine uyan kimseler sorulduğunda belki, "ben Müslümanım" ya da "ben Hıristiyanım" diyebilirler. Dinsiz, hatta ateist de olabilirler. Fakat her biri, aslında bu gizli dinin mensubudur.Adamlık dininin kurallarının Kuran ahlakının tam tersi bir zihniyetten kaynaklandığı, tercihlerin Allah rızasına göre değil de adamlık dininin koyduğu ölçülere göre yapıldığı ve bütün bunların sonucunda da bu dinin mensuplarında geniş çaplı davranış bozukluklarının ortaya çıktığı da kitapta vurgulanmaktadır. <strong>124 sayfa</strong>
-            </p>
-        </div>
-    </div>
-    
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>YAHUDİLİK VE MASONLUK</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-               <strong>Masonluğun iç yüzünü ortaya çıkaran ünlü klasik...</strong> <strong><img  class="left" src="assets/img/tumeserler/yahudilikvemasonluk.jpg" alt="HARUN YAHYA" title="HARUN YAHYA" height="225">"Yahudilik ve Masonluk"</strong> isimli kitabın genel görüntüsü kitabın önsözünde şöyle açıklanmaktadır:"Hakkında 60 binden fazla kitap yazılmış olmasına rağmen masonluğun ortaya çıkışı, hedefleri ve hayatımızdaki rolü toplumumuz tarafından yeteri kadar anlaşılmış değildir.Beynelmilel bir kuruluş olan masonluğun yahudilikle çok yakın bir alakası vardır. Bu sebeple muharref Tevrat inananlarının gayelerini, hedeflerini, dünyaya anlatmadan masonluğun tarifini yapmak çok güç olmaktadır.Yahudiler hakkında bilinenler, yalnızca birkaç roman veya filmin konusuyla sınırlıdır.Bu gibi sebeplerden hareketle, kitapta <strong>birinci bölüm</strong> resimli olarak, anaokulundaki çocuktan devlet erkanına kadar İsrail halkının ve diğer devletlerdeki Yahudilerin, dinlerine bağlılıklarının tanıtılmasına ayrılmıştır. <strong>İkinci Bölüm</strong> ise masonluk ve bunun Yahudilikle alakasını ortaya koymaktadır. Ayrıca masonların kabul ettirmeye çalıştıkları evrim teorisi, dinlerin dejenerasyonu gibi önemli meseleler son bölümde ele alınmıştır.Bu araştırma sadece belgelere dayanılarak hazırlanmış, zayıf kaynaklar dikkate alınmamıştır. Kitapta Yahudilik meselesine ırkçı bir düşünceyle yaklaşılmadığı gibi muharref Tevrat'tan kaynaklanan ırkçı Siyonist ideolojinin bütün açıklığı ile gözler önüne serilmesinden de kaçınılmamıştır.Aynı hususu masonluk için de söyleyebiliriz. Basit menfaatler için masonluğa üye olanlara gerçek mason gözü ile bakmak hatalıdır… Bu kitap vasıtasıyla gerçekleştirilmek istenen husus, şahısları tek tek karalamak değil, milletimize aşılanıp maledilmeye çalışılan sapkın fikirlere dikkat çekmek ve bunların hangi vasıtalarla gerçekleştirildiğine, kısacası oynanmakta olan oyunlara biraz olsun açıklık getirebilmektir. Listelerin veriliş gayesi de budur. Nitekim listeler bütün masonları kapsamamaktadır. Onların yaygın oldukları kurumlar hakkında fikir vermek gayesiyle ilave edilmişlerdir…<strong>526 SAYFA, 450 RESİM</strong>
-            </p>
-        </div>
-    </div>
+</footer>
 
 
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>ALLAH'IN İSİMLERİ</h2></div>
-        </a>
-
-
-        <div class="content">
-            <p>
-            <a href="web/AllahinIsimleri-12b-tr/AllahinIsimleri-12b-tr.html">
-                <img class="left" src="assets/img/AllahinIsimleri_tr_12b_K_170925.jpg" alt="HARUN YAHYA" title="HARUN YAHYA" height="225"></a>Sizi ve kainatı en ince ayrıntısına kadar kusursuzca yaratan Allah'ı ne kadar tanıyorsunuz? Birçok insan farklı kültürlerin ve kaynağı belirsiz bilgilerin etkisiyle Allah hakkında yanlış düşüncelere sahiptir. Oysa Allah, 1400 yıl önce indirdiği Kuran ile insanlara Kendini tanıtmış, Kendine ait isimleri bildirmiştir. İşte şu an elinizde tuttuğunuz kitabın amacı size "şah damarınızdan daha yakın olan" Allah'ı, O'nun Kuran'da bildirdiği şekilde tanıtmak, böylelikle Yüce Allah'a daha yakın olmanızı sağlamaktır. Bu kitapta kullanılan ayetler, Ali Bulaç'ın hazırladığı "Kur'an-ı Kerim ve Türkçe Anlamı" isimli mealden alınmıştır.Allah, 1400 yıl önce indirdiği Kuran ayetleriyle insanlara Kendisi'ni tanıtmış, Kendisi'ne ait isimleri bildirmiştir. Kuran'da verilen çeşitli örnekler ve anlatımlar O'nun sonsuz aklını, ilmini, sanatını gözler önüne serer. Allah Kuran ile Kendisi'ni kullarına tanıtır. 
-            </p>
-        </div>
-    </div>
-
-
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>İSRAİL’İN KÜRT KARTI</h2></div>
-        </a>
-
-
-        <div class="content">
-            <p>
-            <a href="web/AllahinIsimleri-12b-tr/AllahinIsimleri-12b-tr.html">
-                <img class="left" src="assets/img/israilinkurtkarti.jpg" alt="HARUN YAHYA" title="HARUN YAHYA" height="225"></a>Sizi ve kainatı en ince ayrıntısına kadar kusursuzca yaratan Allah'ı ne kadar tanıyorsunuz? Birçok insan farklı kültürlerin ve kaynağı belirsiz bilgilerin etkisiyle Allah hakkında yanlış düşüncelere sahiptir. Oysa Allah, 1400 yıl önce indirdiği Kuran ile insanlara Kendini tanıtmış, Kendine ait isimleri bildirmiştir. İşte şu an elinizde tuttuğunuz kitabın amacı size "şah damarınızdan daha yakın olan" Allah'ı, O'nun Kuran'da bildirdiği şekilde tanıtmak, böylelikle Yüce Allah'a daha yakın olmanızı sağlamaktır. Bu kitapta kullanılan ayetler, Ali Bulaç'ın hazırladığı "Kur'an-ı Kerim ve Türkçe Anlamı" isimli mealden alınmıştır.Allah, 1400 yıl önce indirdiği Kuran ayetleriyle insanlara Kendisi'ni tanıtmış, Kendisi'ne ait isimleri bildirmiştir. Kuran'da verilen çeşitli örnekler ve anlatımlar O'nun sonsuz aklını, ilmini, sanatını gözler önüne serer. Allah Kuran ile Kendisi'ni kullarına tanıtır. 
-            </p>
-        </div>
-    </div>
-
-
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>ALLAH İÇİN YAŞAMAK</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-            <a href="web/AllahIcinYasamak-17b-tr/AllahIcinYasamak-17b-tr.html">
-                <img class="left" src="assets/img/AllahIcinYasamak_17b_tr.jpg" alt="HARUN YAHYA" title="HARUN YAHYA" height="225"></a>
-Müslüman, Allah'ın, dinine bağlananlara verdiği bir
-isimdir. Kuran'da tarif edilen Müslümanları diğer insanlardan ayıran
-temel fark ise, bu insanların Allah'ın sonsuz kudretinin tam anlamıyla farkında olmalarıdır.
-Allah'ın büyüklüğünü kavramak bunu sözle tasdik etmekten ibaret değildir. Müslümanlar
-Allah'ın varlığının ve büyüklüğünün farkına varan, O'nu çok seven, O'ndan "korkup-
-sakınan" ve hayatlarını farkına vardıkları bu büyük gerçeğe göre düzenleyen insanlardır.
-Bu kitapta sadece Allah için yaşayan ve Kuran'da tarif edilen mümin modeli anlatılmaktadır.
-Unutulmamalıdır ki cennet, Allah'a ve ahirete "kesin bir bilgiyle" iman edip, sonra da Allah
-yolunda "ciddi bir çaba" gösterenlerin yurdudur. Allah'a ancak "bir ucundan ibadet" edip,
-Allah'ın rızasının yanında kendi basit çıkarlarını korumaya çalışanlar ise Kuran'da bildirildiği
-üzere kayıptadırlar. (Hac Suresi, 11)<strong>526 SAYFA</strong> Harun Yahya Külliyatı - Bu kitapta kullanılan ayetler, Ali Bulaç'ın hazırladığı
-"Kur'an-ı Kerim ve Türkçe Anlamı" isimli
-mealden alınmıştır.
-            </p>
-        </div>
-    </div>
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>ALAY DENEN ZULÜM</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-            <a href="web/alayDenenZulum-10b-tr/alayDenenZulum-10b-tr.html">
-                <img class="left" src="assets/img/alayDenenZulum-10b-tr.jpg" alt="HARUN YAHYA" title="HARUN YAHYA" height="225"></a>Tarih boyunca Allah'a ve ahirete iman etmeyen insanlar, kendilerine hak din anlatıldığında, yanlış bir yolda oldukları ve bu yoldan ayrılmazlarsa sonsuz bir cehennem hayatı ile karşılaşabilecekleri haber verildiğinde bunu kabul etmemişlerdir. Üstelik kendilerinin doğru yolda olduğunu akıllarınca göstermek için de bu hak dini yaşayanlarla alay etmeye kalkışmışlardır. Kuşkusuz inkarcılar büyük bir yanılgı içindedirler. Gösterdikleri sözlü ya da fiili çabalar da hiçbir şekilde sonuca ulaşmayacaktır. Zira Allah Kuran'da hak dinin her zaman üstün olduğunu ve inkarcıların çabasının boşa çıkacağını müjdelemiştir. Din ahlakından uzak insanlar şunu bilmelidirler: Müminlere gösterdikleri alaycı davranışlarla, din ahlakı hakkında iftira dolu sözlerle -eğer bu tavırlarından vazgeçmeyecek olurlarsa- kendilerini sonsuz bir azaba sürüklemektedirler. Elinizdeki kitapta bu gerçekler anlatılmakta, inkarcıların alay etmek isterken içine düştükleri tuzak açıklanmaktadır. Ayrıca alaycılık kavramı alışılmışın dışında, farklı yönlerden ele alınmakta ve Kuran ayetlerine göre yorumlanmaktadır.<strong>526 SAYFA</strong>
-            </p>
-        </div>
-    </div>
-    
-    
-    
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>ADAMLIK DİNİ</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-            <a href="web/adamlikDini-13b-tr/adamlikDini-13b-tr.html">
-                <img  class="left" src="assets/img/adamlikdini.png" alt="HARUN YAHYA" title="Adamlık Dini"  height="225"></a>Adamlık Dini adlı bu kitapta insanların bir çoğunu, kendileri farkında olmadıkları halde etkisi altına almış olan güçlü bir dinden bahsedilmektedir. Bu dinin her çağda ve her coğrafyada, hak Din'den sapmış olan toplumların ortak dini olduğu anlatılmaktadır.Bu, kendini açıkça tanıtmayan, gizli bir dindir. Hiçbir yazılı kuralı yoktur. Adı bile konmamıştır. İnsanların hareket ve tavırlarını, düşüncelerini kontrolü altına alır. İnsanlar, şuurunda olmadan bu dinin emir ve yasaklarına göre yaşarlar. Bu din, Müslümanlık, Hıristiyanlık veya Musevilik değildir. Bu dine uyan kimseler sorulduğunda belki, "ben Müslümanım" ya da "ben Hıristiyanım" diyebilirler. Dinsiz, hatta ateist de olabilirler. Fakat her biri, aslında bu gizli dinin mensubudur.Adamlık dininin kurallarının Kuran ahlakının tam tersi bir zihniyetten kaynaklandığı, tercihlerin Allah rızasına göre değil de adamlık dininin koyduğu ölçülere göre yapıldığı ve bütün bunların sonucunda da bu dinin mensuplarında geniş çaplı davranış bozukluklarının ortaya çıktığı da kitapta vurgulanmaktadır. <strong>124 sayfa</strong>
-            </p>
-        </div>
-    </div>
-    
-    
-    
-
-    <div class="accordion-item">
-        <a href="#" class="heading">
-            <div class="icon"></div>
-            <div class="title"><h2>TERÖRÜN PERDE ARKASI</h2></div>
-        </a>
-
-        <div class="content">
-            <p>
-            <a href="web/adamlikDini-13b-tr/adamlikDini-13b-tr.html">
-                <img  class="left" src="assets/img/terorunperdearkasi.jpg" alt="HARUN YAHYA" title="Adamlık Dini"  height="225"></a><strong>Karanlık bir dünyadaki karanlık ilişkiler, mafya-Gladio-gizli servisler, terör örgütleri, silah tüccarları ve farklı ideolojilerin</strong> <strong>ortak teröristleri...</strong>Bu kitap, terörü bir siyasi yöntem olarak benimseyen örgütler ve rejimler arasındaki hiç umulmadık bağlantıları ortaya çıkarmaktadır. Terörizme karşı savaş verme iddiasındaki güçlerin, kendi çıkarlarına uygun olan terörü nasıl beslediklerini delilleri ve belgeleri ile göstermektedir. Kitapta yer alan bölümlerden birkaçı şunlardır:Kitap, İsrail gizli servisini inceleyen bir bölümle başlıyor. Bu bölümde Mossad'ın çeşitli eylemlerinin bilinmeyen yönleri ve örgütün diğer gizli servislerle olan ilişkileri konu ediniliyor.İkinci bölüm, Vatikan'ı konu ediyor. Katolik dünyasının merkezinin nasıl masonlar tarafından dejenere edildiği, "33 günlük Papa" I. Jean Paul'ün örgüt tarafından nasıl ortadan kaldırıldığı ve Vatikan'daki bu masonik etkinin Papalığın Yahudiler'e ve İsrail'e olan tavrına nasıl etki ettiği inceleniyor.Üçüncü bölüm, mafyanın ve silah tüccarlarının bilinmeyen dünyasından bazı önemli bilgiler veriyor. Amerika'daki mafya dünyasının İsrail'le olan ilişkileri ve İsrail'in Yahudi silah tüccarları aracılığıyla çeşitli terör örgütleri ile kurduğu bağlantılar ortaya konuyor.Dördüncü bölüm, P2 Mason Locası skandalı ile ilgili. Locanın İsrail'le ve Mossad'la olan ilişkilerine değinerek başlanan araştırma, P2'nin ülke içinde ulaştığı inanılmaz gücü ve yürüttüğü kirli işleri tüm açıklığı ile ortaya seriyor.Beşinci bölüm, ünlü Gladio örgütü ile ilgili. İtalya'da ortaya çıkartılan ve "rejimin bekası" adına birçok cinayet ve sabotaj gerçekleştiren ve sayısız yasadışı faaliyet yürüten "kontrgerilla" örgütünün P2 Locası ile olan ilişkisi, P2 üzerinden kurulan Mossad bağlantısı ve mafya bağlantısı ele alınıyor. <strong>395 SAYFA, 146 RESİM</strong>
-            </p>
-        </div>
-    </div>
-    
-    
-  <!-- end-->  
-</div>
-
-  <script src='js/jquery-2.2.4.min.js'></script>
-
-    <script src="js/index.js"></script>
-<noscript>
-    <img src="https://counter2001.herokuapp.com/ingress/f7f40a7f-4a42-40dd-be33-a5486acb6e23/pixel.gif">
-</noscript>
-<script defer src="https://counter2001.herokuapp.com/ingress/f7f40a7f-4a42-40dd-be33-a5486acb6e23/script.js"></script>
- 
-
-</body>
+      
+  </body>
 </html>
