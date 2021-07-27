@@ -134,7 +134,29 @@
     </div>
   </section>
 
-  <div class="album py-5 bg-light">
+
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+<script>
+function myFunction() {
+    var input, filter, mydiv, div, p, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    mydiv = document.getElementById("mydiv");
+    div = mydiv.getElementsByTagName("div");
+    for (i = 0; i < div.length; i++) {
+        p = div[i].getElementsByTagName("p")[0];
+        txtValue = p.textContent || p.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+  <div id="mydiv" class="album py-5 bg-light">
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -312,11 +334,16 @@ birlikte olmak ister. Allah'ın verdiği nimetlerin birçoğu, asıl değerini, 
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   </div>
 
 </main>
+
+
+
+
 
 <footer class="text-muted py-5">
   <div class="container">
@@ -327,6 +354,10 @@ birlikte olmak ister. Allah'ın verdiği nimetlerin birçoğu, asıl değerini, 
     <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
   </div>
 </footer>
+
+
+
+
 
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
