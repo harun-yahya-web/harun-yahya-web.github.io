@@ -1,0 +1,3 @@
+Sitemap: https://harun-yahya-web.github.io/sitemap.xml
+
+User-agent: *
