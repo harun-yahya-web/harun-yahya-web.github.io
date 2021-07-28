@@ -133,28 +133,9 @@
       </div>
     </div>
   </section>
+  
+  
 
-
-
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
-<script>
-function myFunction() {
-    var input, filter, mydiv, div, p, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    mydiv = document.getElementById("mydiv");
-    div = mydiv.getElementsByTagName("div");
-    for (i = 0; i < div.length; i++) {
-        p = div[i].getElementsByTagName("p")[0];
-        txtValue = p.textContent || p.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            div[i].style.display = "";
-        } else {
-            div[i].style.display = "none";
-        }
-    }
-}
-</script>
 
   <div id="mydiv" class="album py-5 bg-light">
     <div class="container">
