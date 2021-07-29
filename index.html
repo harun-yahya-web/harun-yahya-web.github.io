@@ -26,46 +26,10 @@
     <meta name="google-site-verification" content="BCcxBcS3lgMpeUrrxaTxXkRz0IqUa5Jp4-N6GYIB7VM" />
 
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
-    <style>
-.container { width:600px; margin:0 auto; padding:10px; background:#fff; }
-#form { margin:0 auto; padding:5px; text-align:center }
-.filterinput { width:400px; height:30px; padding:2px; }
-</style>
+
     <script src="search/jquery.min.js"></script>
     <script src="search/jquery-ui.min.js"></script>
-    <script>
-
-jQuery(document).ready(function ($) {
-  jQuery.expr[':'].Contains = function(a,i,m){
-      return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
-  };
- 
-  function live_search(list) {
- 
-    $(".filterinput")
-      .change( function () {
-        var searchtext = $(this).val();
-        if(searchtext) {
- 
-          $matches = $(list).find('a:Contains(' + searchtext + ')').parent();
-          $('li', list).not($matches).slideUp();
-          $matches.slideDown();
- 
-        } else {
-          $(list).find("li").slideDown(200);
-        }
-        return false;
-      })
-    .keyup( function () {
-        $(this).change();
-    });
-  }
- 
-  $(function () {
-    live_search($("#contents"));
-  });
-}(jQuery));
-</script>
+    
 
 
     <style>
@@ -141,37 +105,7 @@ jQuery(document).ready(function ($) {
           <ul class="list-unstyled">
             <li><a href="/search/" class="text-white">Kitap İsminde Ara</a></li>
           </ul>
-          <div class="container">
-<center><h2>Harun Yahya Kitap</h2></center>
-<div id="form">
-<form action="#" class="search">
-<input type="text" placeholder="type to filter" class="filterinput" />
-</form>
-</div>
-
-<ol id="contents">
-                                      <li>
-                                         <a href="https://harun-yahya-web.github.io/web/adamlikDini-13b-tr/adamlikDini-13b-tr.html">Adamlık Dini</a>
-                                         <!-- Para -->
-                                         <p>Adamlık Dini adlı bu kitapta insanların bir çoğunu, kendileri farkında olmadıkları halde etkisi altına almış olan güçlü bir dinden bahsedilmektedir.</p>
-                                      </li>
-                                      <li>
-                                         <a href="https://harun-yahya-web.github.io/web/balarisiMucizesi-4b-tr/balarisiMucizesi-4b-tr.html">Balarısı Mucizesi</a>
-                                         <p>Arıların olağanüstü özelliklerini incelediğimizde, bu canlıların insanların bile başaramayacakları işleri kolaylıkla yaptığını görürüz.</p>
-                                      </li>
-                                      <li>
-                                         <a href="https://harun-yahya-web.github.io/web/akilsizKuraniNasilYorumlar-11b-tr/akilsizKuraniNasilYorumlar-11b-tr.html">Akılsız Kuran'ı Nasıl Yorumlar?</a>
-                                         <p>Bu kitapta, imandan uzak, akledemeyen kişilerin, Kuran'ı yanlış yorumlamalarının nedenleri ele alınmakta, ayetler hakkında yaptıkları akılsızca yorumlardan ve itirazlardan çeşitli örnekler incelenmekte ve cevapları verilmektedir. </p>
-                                      </li>
-                                      <li>
-                                         <a href="https://harun-yahya-web.github.io/web/alayDenenZulum-10b-tr/alayDenenZulum-10b-tr.html">Alay Denen Zulüm</a>
-                                         <p>Tarih boyunca Allah'a ve ahirete iman etmeyen insanlar, kendilerine hak din anlatıldığında, yanlış bir yolda oldukları ve bu yoldan ayrılmazlarsa sonsuz bir cehennem hayatı ile karşılaşabilecekleri haber verildiğinde bunu kabul etmemişlerdir.</p>
-                                      </li>
-                                                                     
-</ol>
-
-
-</div>
+          
         </div>
         
         <div class="col-sm-4 offset-md-1 py-4">
