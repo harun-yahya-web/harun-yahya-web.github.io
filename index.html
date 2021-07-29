@@ -29,7 +29,62 @@
     
     <script src="search/jquery.min.js"></script>
     <script src="search/jquery-ui.min.js"></script>
-    
+    <script>
+
+jQuery(document).ready(function(){
+								
+	jQuery('.s_download').click(function(){
+			var semail = jQuery("#itzurkarthi_email").val();
+			if(semail == '')
+			{
+				alert('Enter Email');
+				return false;
+			}
+			var str = "sub_email="+semail
+			jQuery.ajax({
+				type: "POST",
+				url: "download.php",
+				data: str,
+				cache: false,
+				success: function(htmld){
+						jQuery('#down_update').html(htmld);
+				}
+			});
+	  })
+ });
+(function ($) {
+  jQuery.expr[':'].Contains = function(a,i,m){
+      return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
+  };
+ 
+  function live_search(list) {
+ 
+    $(".filterinput")
+      .change( function () {
+        var searchtext = $(this).val();
+        if(searchtext) {
+ 
+          $matches = $(list).find('a:Contains(' + searchtext + ')').parent();
+          $('li', list).not($matches).slideUp();
+          $matches.slideDown();
+ 
+        } else {
+          $(list).find("li").slideDown(200);
+        }
+        return false;
+      })
+    .keyup( function () {
+        $(this).change();
+    });
+  }
+ 
+  $(function () {
+    live_search($("#contents"));
+  });
+}(jQuery));
+</script>
+
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
