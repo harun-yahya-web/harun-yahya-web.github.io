@@ -9,32 +9,11 @@
 #form { margin:0 auto; padding:5px; text-align:center }
 .filterinput { width:400px; height:30px; padding:2px; }
 </style>
-<script src="search/jquery.min.js"></script>
-<script src="search/jquery-ui.min.js"></script>
+<script src="jquery.min.js"></script>
+<script src="jquery-ui.min.js"></script>
 <script>
 
-jQuery(document).ready(function(){
-								
-	jQuery('.s_download').click(function(){
-			var semail = jQuery("#itzurkarthi_email").val();
-			if(semail == '')
-			{
-				alert('Enter Email');
-				return false;
-			}
-			var str = "sub_email="+semail
-			jQuery.ajax({
-				type: "POST",
-				url: "download.php",
-				data: str,
-				cache: false,
-				success: function(htmld){
-						jQuery('#down_update').html(htmld);
-				}
-			});
-	  })
- });
-(function ($) {
+jQuery(document).ready(function ($) {
   jQuery.expr[':'].Contains = function(a,i,m){
       return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
   };
@@ -88,12 +67,12 @@ jQuery(document).ready(function(){
                                          <p>Arıların olağanüstü özelliklerini incelediğimizde, bu canlıların insanların bile başaramayacakları işleri kolaylıkla yaptığını görürüz.</p>
                                       </li>
                                       <li>
-                                         <a href="http://w3lessons.info/2013/11/25/getting-images-from-flickr-instagram-twitpic-imgur-deviantart-url-using-php-jquery/">Getting Images from Flickr, Instagram, Twitpic, Imgur & Deviantart Url using PHP & jQuery</a>
-                                         <p>Getting Images from Flickr, Instagram, Twitpic, Imgur & Deviantart Url using PHP & jQuery - Now a days major sites are using this feature to automatically embed images from a url. So I am going to explain you how to get images from url using PHP &amp; jQuery</p>
+                                         <a href="https://harun-yahya-web.github.io/web/akilsizKuraniNasilYorumlar-11b-tr/akilsizKuraniNasilYorumlar-11b-tr.html">Akılsız Kuran'ı Nasıl Yorumlar?</a>
+                                         <p>Bu kitapta, imandan uzak, akledemeyen kişilerin, Kuran'ı yanlış yorumlamalarının nedenleri ele alınmakta, ayetler hakkında yaptıkları akılsızca yorumlardan ve itirazlardan çeşitli örnekler incelenmekte ve cevapları verilmektedir. </p>
                                       </li>
                                       <li>
-                                         <a href="http://w3lessons.info/2013/11/18/facebook-style-hashtag-system-with-php-mysql-jquery/">Facebook Style Hashtag System with PHP, MYSQL & jQuery</a>
-                                         <p>Facebook Style Hashtag System with PHP, MYSQL & jQuery - If you are not aware of Hashtag, then I will say you would not using any social networking sites in a very large extent.  Here I am going to explain you about the advantages of hashtag &amp; how you can implement it in your web projects using php &amp; mysql</p>
+                                         <a href="https://harun-yahya-web.github.io/web/alayDenenZulum-10b-tr/alayDenenZulum-10b-tr.html">Alay Denen Zulüm</a>
+                                         <p>Tarih boyunca Allah'a ve ahirete iman etmeyen insanlar, kendilerine hak din anlatıldığında, yanlış bir yolda oldukları ve bu yoldan ayrılmazlarsa sonsuz bir cehennem hayatı ile karşılaşabilecekleri haber verildiğinde bunu kabul etmemişlerdir.</p>
                                       </li>
                                                                      
 </ol>
