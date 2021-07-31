@@ -9,53 +9,173 @@
 
 <url>
   <loc>https://harun-yahya-web.github.io/</loc>
-  <lastmod>2021-07-28T12:07:15+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://harun-yahya-web.github.io/search/</loc>
+  <lastmod>2021-07-30T20:20:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://harun-yahya-web.github.io/web/adamlikDini-13b-tr/adamlikDini-13b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:20+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://harun-yahya-web.github.io/web/balarisiMucizesi-4b-tr/balarisiMucizesi-4b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:21+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://harun-yahya-web.github.io/web/akilsizKuraniNasilYorumlar-11b-tr/akilsizKuraniNasilYorumlar-11b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:20+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://harun-yahya-web.github.io/web/alayDenenZulum-10b-tr/alayDenenZulum-10b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:20+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://harun-yahya-web.github.io/web/AllahIcinYasamak-17b-tr/AllahIcinYasamak-17b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:15+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://harun-yahya-web.github.io/web/AllahinIsimleri-12b-tr/AllahinIsimleri-12b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:16+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://harun-yahya-web.github.io/web/AllahKorkusu-13b-tr/AllahKorkusu-13b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:15+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://harun-yahya-web.github.io/web/AllahSevgisi-5b-tr/AllahSevgisi-5b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:15+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:21+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://harun-yahya-web.github.io/web/amerikaninGoremedigiPKK-2b-tr/amerikaninGoremedigiPKK-2b-tr.html</loc>
-  <lastmod>2021-07-28T12:07:20+00:00</lastmod>
+  <lastmod>2021-07-30T20:20:24+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/KuranMucizeleri1-tr-11b/KuranMucizeleri1-tr-11b.html</loc>
+  <lastmod>2021-07-30T20:20:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/KuranMucizeleri2-tr-11b/KuranMucizeleri2-tr-11b.html</loc>
+  <lastmod>2021-07-30T20:20:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/KuranMucizeleri3-tr-3b/KuranMucizeleri3-tr-3b.html</loc>
+  <lastmod>2021-07-30T20:20:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/cahiliyeToplumundaInsanKarakterleri-8b-tr/cahiliyeToplumundaInsanKarakterleri-8b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/CahiliyeToplumunuTerketme1b/CahiliyeToplumunuTerketme1b.html</loc>
+  <lastmod>2021-07-30T20:20:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/COZUM-KURAN-AHLAKI-5b/COZUM-KURAN-AHLAKI-5b.html</loc>
+  <lastmod>2021-07-30T20:20:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/darwinist-propaganda-yontemleri-2b-tr/darwinist-propaganda-yontemleri-2b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/darwinizminInsanligaGetirdigiBelalar-6b-tr/darwinizminInsanligaGetirdigiBelalar-6b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/DINSIZLIGIN-ILKEL-MANTIGI-6b/DINSIZLIGIN-ILKEL-MANTIGI-6b.html</loc>
+  <lastmod>2021-07-30T20:20:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/multecilere-yardim/multecilere-yardim.html</loc>
+  <lastmod>2021-07-30T20:20:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/muminlerinAsilYurduCennet-tr-14b/muminlerinAsilYurduCennet-tr-14b.html</loc>
+  <lastmod>2021-07-30T20:20:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/munafiginDerinKaranligi-2b-tr/munafiginDerinKaranligi-2b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/munafigin-sirlari-5b/munafigin-sirlari-5b.html</loc>
+  <lastmod>2021-07-30T20:20:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/muslumancaKonusmak-7b-tr/muslumancaKonusmak-7b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/nasilBirYemen-1b-tr/nasilBirYemen-1b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/olum-kiyamet-cehennem-17b/olum-kiyamet-cehennem-17b.html</loc>
+  <lastmod>2021-07-30T20:20:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/orumcekteki-mucize-tr-b5/orumcekteki-mucize-tr-b5.html</loc>
+  <lastmod>2021-07-30T20:20:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/pismanOlmadanOnce-tr-12b/pismanOlmadanOnce-tr-12b.html</loc>
+  <lastmod>2021-07-30T20:20:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/rohingyalarGuzeldir-1b-tr/rohingyalarGuzeldir-1b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/SAKIN-UNUTMAYIN-10b/SAKIN-UNUTMAYIN-10b.html</loc>
+  <lastmod>2021-07-30T20:20:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/seytanin-bir-silahi-romantizm-2b-tr/seytanin-bir-silahi-romantizm-2b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/sinsiBirTehlikeGaflet-9b-tr/sinsiBirTehlikeGaflet-9b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harun-yahya-web.github.io/web/sivrisinekMucizesi-5b-tr/sivrisinekMucizesi-5b-tr.html</loc>
+  <lastmod>2021-07-30T20:20:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
