@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Harun Yahya Audio Files</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Harun Yahya Audio Files">
+<link rel="stylesheet" media="all" href="https://harun-yahya-web.github.io/audio/style.css">
+<style>
+#audiocontainer, #audioplayer {
+	max-width: 100% ;
+}
+</style>
+<link rel="icon" href="https://harun-yahya-web.github.io/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="https://harun-yahya-web.github.io/audio/index.html">
+</head>
+
+<body>
+
+<div class="mainbody">
+
+<h1>Harun Yahya Kitap Seslendirmeleri</h1>
+
+<p>
+This is a demo of the code described in
+<a href="https://www.thesitewizard.com/javascripts/select-audio-to-play-from-a-list.shtml" target="_top">How
+to Play a Song (or Some Other Audio Clip) from a List on a Website</a>.
+</p>
+
+<script>
+function change_audio_file()
+{
+	var file_list = document.getElementById('audio_list') ;
+	var file_to_play = file_list.options[ file_list.selectedIndex ].value ;
+	var player = document.getElementById('audio_player');
+	player.src = file_to_play ;
+}
+</script>
+<form>
+<p>
+<label for="audio_list">
+Select an audio clip to load into the player. Then click the Play button on the player to start it.
+</label>
+</p>
+<p>
+<select onchange="change_audio_file();" id="audio_list">
+<option selected="selected" value="audio/demo.mp3">thesitewizard.com</option>
+<option value="audio/thefreecountry.mp3">thefreecountry.com</option>
+<option value="audio/howtohaven.mp3">howtohaven.com</option>
+</select>
+</p>
+</form>
+<div id="audio_container">
+<audio controls="controls" id="audio_player" src="Demo%20for%20the%20Audio%20Clip%20Selection%20JavaScript_files/demo.mp3">
+<div style="border: 1px solid black ; padding: 8px ;">
+Sorry, your browser does not support this audio player.
+</div>
+</audio>
+</div>
+
+<p>
+Since this player uses the HTML 5 audio element, if you use too old a browser, the audio player will not appear.
+In addition, some old browsers may also not support the MP3 format used in this demo.
+</p>
+
+<h2>Technical Details</h2>
+
+<p>
+For the curious, the audio clips were recorded, trimmed and exported as an MP3 file using Audacity, a
+<a href="https://www.thefreecountry.com/utilities/audioeditors.shtml" target="_top">free audio/sound editor</a>.
+</p>
+
+<p>
+The HTML and JavaScript for the above are described and explained in
+<a href="https://www.thesitewizard.com/javascripts/select-audio-to-play-from-a-list.shtml" target="_top">How
+to Play a Song (or Some Other Audio Clip) from a List on a Website</a>
+and the related article on
+<a href="https://www.thesitewizard.com/html-tutorial/play-audio-music-with-html5.shtml" target="_top">How
+to Play Music or Audio on a Website with HTML (HTML5)</a>.
+</p>
+
+</div>
+
+&nbsp;
+
+<div class="mainbody">
+Copyright © 2021 by Christopher Heng. All rights reserved.<br>
+thesitewizard™ and fbdemo™ are trademarks of Christopher Heng.<br>
+This page was last updated on 26 March 2021.
+</div>
+
+
+
+
+</body></html>
